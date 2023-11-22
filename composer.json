@@ -1,5 +1,5 @@
 {
-  "name": "ipinchuk/php-yandex-taxi-api",
+  "name": "neolinks/php-yandex-taxi-api",
   "description": "PHP client for Yandex Taxi API ",
   "license": "MIT",
   "keywords": ["yandex", "taxi", "api", "Яндекс.Такси"],
@@ -10,11 +10,11 @@
     }
   ],
   "require": {
-    "php": ">=7.0.0",
-    "guzzlehttp/guzzle": "^6.3"
+    "php": ">=8.1",
+    "guzzlehttp/guzzle": "^7.0"
   },
   "require-dev": {
-    "phpunit/phpunit": "9.1.3"
+    "phpunit/phpunit": "^10.1.0"
   },
   "autoload": {
     "psr-4": {
@@ -29,7 +29,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/i-pinchuk/php-yandex-taxi-api"
+      "url": "https://github.com/neolinks/php-yandex-taxi-api"
     }
   ]
 }
