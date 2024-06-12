@@ -52,6 +52,8 @@ abstract class AbstractApi {
             $uri .= '?' . http_build_query($params);
         }
 
+        $options = [];
+        
         if ($headers) {
             $options['headers'] = $headers;
         }
